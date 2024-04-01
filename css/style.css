@@ -1,10 +1,16 @@
 @media only screen and (max-width: 500px) {
     body { background-color: azure;}
     nav {display: none;}
+    p{text-align: justify;}
+    #carouselExample{display: none;}
 }
 
 @media only screen and (min-width: 501px) and (max-width: 960px) {
-    body{ background-color: blanchedalmond; }
+    body{ background-color: blanchedalmond;}
+    nav{display: none;}
+    p{text-align: justify;}
+    #carouselExample{display: none;}
+    
 }
 
 @media only screen and (min-width: 961px) {
@@ -22,13 +28,13 @@ a{
   }
 
   html{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 p{text-align: justify;}
 
 h1{
-    font-size: 30px; 
+    font-size: 40px; 
     font-family: Arial, Helvetica, sans-serif; 
     color:black;
     text-decoration: none;
@@ -36,13 +42,13 @@ h1{
     }
 
 h2{
-    font-size: 24px; 
+    font-size: 34px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     color: rgb(15, 15, 15);
 }
 
 h3{
-    font-size: 20px;
+    font-size: 30px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: #0b0101;
 }
@@ -55,10 +61,16 @@ header nav ul li{
     justify-content: space-around;
 }
 
-.img-txt {width: 22rem;
+.img-txt {width: 30rem;
     height: auto;
     padding: 0.5rem;}
 
+.img-crs {width: 50rem;
+height: 40 rem;
+margin:0% auto;
+justify-content: center;
+display: block;
+}
 
 
 footer{display: flex;
@@ -90,3 +102,5 @@ body{flex-wrap: wrap;}
     height: 0;
     overflow: hidden;
 }
+.carousel-item {
+    justify-content: center;}
