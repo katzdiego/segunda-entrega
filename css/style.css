@@ -42,13 +42,17 @@ header nav ul li{
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    margin: 20px;
+    justify-content: space-around;
 }
+
+.img-txt {width: 22rem;
+    height: auto;
+    padding: 0.5rem;}
 
 
 
 footer{display: flex;
     flex-direction: row;
-justify-content: space-between;}
+justify-content: space-around;}
 
 body{flex-wrap: wrap;}
